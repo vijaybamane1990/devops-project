@@ -1,0 +1,24 @@
+Developer
+   |
+   | git push
+   v
+GitHub Repo
+   |
+   | webhook
+   v
+Jenkins
+   |
+   | Build + Test
+   v
+Docker Image
+   |
+   | Deploy using Ansible
+   v
+Kubernetes (Minikube)
+   |
+   v
+Nginx Web App
+   |
+   v
+Browser (localhost)
+

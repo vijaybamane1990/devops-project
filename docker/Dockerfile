@@ -1,4 +1,4 @@
 FROM nginx:latest 
-WORKDIR /docker
+WORKDIR docker/
 COPY index.html /usr/share/nginx/html/index.html
 
